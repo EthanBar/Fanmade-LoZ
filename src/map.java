@@ -56,7 +56,7 @@ public class map extends JPanel {
 		loading = true;
 		int temp = 0;
 		try {
-			r = new BufferedReader(new FileReader(mapX + " " + mapY + ".txt")); //Reads from the file specified for the map
+			r = new BufferedReader(new FileReader("res/" + mapX + " " + mapY + ".txt")); //Reads from the file specified for the map
 		}
 		catch (IOException e){
 		}

@@ -63,7 +63,7 @@ public class ZeldaPlayWindow extends JFrame {
 
     void monLoad() throws IOException{
 		this.theMap.loading = true;
-		br = new BufferedReader(new FileReader(this.theMap.x + " " + this.theMap.y + ".txt")); //Reads from the file specified for the map
+		br = new BufferedReader(new FileReader("res/" + this.theMap.x + " " + this.theMap.y + ".txt")); //Reads from the file specified for the map
 
 		for (int i = 0; i < 362; i++){
 			if (i > 351){
