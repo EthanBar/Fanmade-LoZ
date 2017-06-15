@@ -8,11 +8,11 @@
 	import java.awt.*;
 	import javax.swing.*;
 	import java.awt.event.*;
-public class LinkSlice implements Runnable{
+public class InvincibleRunOut implements Runnable {
 
 	public Link link;
 
-	public LinkSlice(Link theLink) {
+	public InvincibleRunOut(Link theLink) {
 
 		this.link = theLink;
 	}

@@ -1,6 +1,9 @@
+import sun.jvm.hotspot.code.Location;
+
 import java.applet.*;
 
 import javax.swing.*;
+import javax.tools.JavaFileManager;
 
 import java.io.*;
 
