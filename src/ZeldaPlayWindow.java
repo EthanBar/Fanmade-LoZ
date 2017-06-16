@@ -116,7 +116,7 @@ public class ZeldaPlayWindow extends JFrame {
 
     }
 
-    public static void main(String[] args) throws Exception { // 
+    public static void main(String[] args) throws Exception { // What exception
         AtomicReference<ZeldaPlayWindow> theZeldaPlayWindow = new AtomicReference<>(new ZeldaPlayWindow("The Legend of Zelda")); // I'm a fan of AtomicReferences
     }
 
